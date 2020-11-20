@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.*;
 
-public class Main {
+public class Test {
     static String httpResponse = "[0.2.4,1.6.7]";
 
     static ServerSocket serverSocket = null;
