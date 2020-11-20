@@ -29,7 +29,7 @@ public class Test {
             server.setExecutor(null);
             server.start();
 
-            URL url = new URL("https://raw.githubusercontent.com/imalinowski/OmaeWaMouShindeiru/master/propeller.png");
+            URL url = new URL("https://raw.githubusercontent.com/imalinowski/AndroidTest/main/propeller.png");
             BufferedImage image = ImageIO.read(url);
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             ImageIO.write(image, "png", baos);
